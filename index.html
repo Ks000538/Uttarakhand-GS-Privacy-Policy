@@ -3,397 +3,159 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy &amp; Legal Disclaimer — Uttarakhand GS</title>
-  <meta name="description" content="Official Privacy Policy, Google AdMob Advertising Disclosure, Terms of Use, and Non-Government Affiliation Disclaimer for the Uttarakhand GS Android application." />
+  <title>Privacy Policy &amp; Disclaimer — Uttarakhand GS</title>
   <style>
     :root {
-      --bg: #f4f7f5;
-      --surface: #ffffff;
-      --surface-soft: #eef4f0;
-      --text: #13221c;
-      --text-muted: #4b5e55;
-      --primary: #0f6b48;
-      --primary-dark: #094a31;
-      --accent: #1e3a8a;
-      --border: #d7e2dc;
-      --warn-bg: #fff8eb;
-      --warn-border: #f0c97a;
-      --warn-text: #5a3d06;
-      --shadow: 0 10px 30px rgba(15, 45, 32, 0.07);
-      --radius: 16px;
+      --primary: #1e3a8a;
+      --primary-soft: #eff6ff;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #cbd5e1;
+      --warn-bg: #fef3c7;
+      --warn-border: #f59e0b;
+      --ok-bg: #ecfdf5;
+      --ok-border: #10b981;
     }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0b1210;
-        --surface: #121d19;
-        --surface-soft: #182822;
-        --text: #ebf3ef;
-        --text-muted: #a6bbb1;
-        --primary: #34d399;
-        --primary-dark: #10b981;
-        --accent: #93c5fd;
-        --border: #243830;
-        --warn-bg: #271e0b;
-        --warn-border: #7a5817;
-        --warn-text: #fde68a;
-        --shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-      }
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Noto Sans Devanagari", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.68;
-      -webkit-font-smoothing: antialiased;
+      line-height: 1.65;
+      margin: 0;
+      padding: 24px 16px;
     }
-
-    .hero {
-      background: linear-gradient(135deg, #064e3b 0%, #0f6b48 55%, #1e3a8a 100%);
-      color: #ffffff;
-      padding: 48px 20px 56px;
-      text-align: center;
-    }
-
-    .hero-inner {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 6px 14px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.16);
-      border: 1px solid rgba(255, 255, 255, 0.25);
-      font-size: 0.84rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      margin-bottom: 14px;
-    }
-
-    .hero h1 {
-      margin: 0 0 10px;
-      font-size: clamp(1.75rem, 4vw, 2.5rem);
-      font-weight: 800;
-      line-height: 1.2;
-    }
-
-    .hero p {
-      margin: 0 auto;
-      max-width: 680px;
-      font-size: 1rem;
-      color: rgba(255, 255, 255, 0.9);
-    }
-
-    .meta-bar {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 20px;
-      font-size: 0.85rem;
-      color: rgba(255, 255, 255, 0.92);
-    }
-
-    .meta-chip {
-      background: rgba(0, 0, 0, 0.22);
-      padding: 5px 12px;
-      border-radius: 8px;
-    }
-
     .container {
-      max-width: 880px;
-      margin: -26px auto 56px;
-      padding: 0 16px;
-    }
-
-    .nav-pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      background: var(--surface);
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card);
       border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 12px;
-      box-shadow: var(--shadow);
-      margin-bottom: 20px;
-      justify-content: center;
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
     }
-
-    .nav-pills a {
-      text-decoration: none;
-      color: var(--text);
-      background: var(--surface-soft);
-      border: 1px solid var(--border);
-      padding: 7px 13px;
-      border-radius: 999px;
-      font-size: 0.86rem;
-      font-weight: 600;
-      transition: transform 0.15s ease, background 0.15s ease;
+    h1 { color: var(--primary); margin: 0 0 8px 0; font-size: 1.75rem; line-height: 1.25; }
+    h2 { color: var(--primary); font-size: 1.15rem; margin-top: 26px; margin-bottom: 8px; }
+    p, li { color: var(--muted); margin-top: 0; }
+    ul { padding-left: 20px; }
+    .meta {
+      font-size: 0.92rem;
+      color: var(--muted);
+      background: var(--primary-soft);
+      border: 1px solid #bfdbfe;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 14px 0 18px 0;
     }
-
-    .nav-pills a:hover {
-      background: var(--primary);
-      color: #ffffff;
-      border-color: var(--primary);
-      transform: translateY(-1px);
-    }
-
-    .notice-box {
+    .notice {
       background: var(--warn-bg);
-      border: 1px solid var(--warn-border);
-      color: var(--warn-text);
-      border-radius: var(--radius);
-      padding: 18px 20px;
-      margin-bottom: 20px;
-    }
-
-    .notice-box strong {
-      display: block;
-      font-size: 1rem;
-      margin-bottom: 6px;
-    }
-
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 24px;
-      margin-bottom: 18px;
-      box-shadow: var(--shadow);
-    }
-
-    .card h2 {
-      margin: 0 0 12px;
-      font-size: 1.2rem;
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 10px;
-    }
-
-    .num {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 28px;
-      height: 28px;
+      border-left: 4px solid var(--warn-border);
+      padding: 14px 16px;
       border-radius: 8px;
-      background: var(--surface-soft);
-      border: 1px solid var(--border);
-      font-size: 0.88rem;
-      font-weight: 700;
-      flex-shrink: 0;
+      margin: 18px 0;
+      color: #451a03;
     }
-
-    .card p {
-      margin: 0 0 12px;
-      color: var(--text);
-    }
-
-    .card p:last-child {
-      margin-bottom: 0;
-    }
-
-    ul {
-      margin: 8px 0 12px 20px;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 6px;
-    }
-
-    .hindi {
-      margin-top: 12px;
-      padding: 12px 14px;
-      background: var(--surface-soft);
-      border-left: 3px solid var(--primary);
+    .highlight {
+      background: var(--ok-bg);
+      border-left: 4px solid var(--ok-border);
+      padding: 14px 16px;
       border-radius: 8px;
-      font-size: 0.94rem;
-      color: var(--text-muted);
+      margin: 18px 0;
+      color: #064e3b;
     }
-
-    a {
-      color: var(--primary);
-      font-weight: 600;
-    }
-
-    .footer {
-      text-align: center;
-      font-size: 0.88rem;
-      color: var(--text-muted);
+    a { color: var(--primary); font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
       margin-top: 28px;
       padding-top: 16px;
       border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
-
-  <header class="hero">
-    <div class="hero-inner">
-      <div class="badge">Android Application Legal &amp; Privacy Notice</div>
-      <h1>Uttarakhand GS — Privacy Policy &amp; Disclaimer</h1>
-      <p>
-        Transparency regarding local offline study storage, planned &amp; integrated Google AdMob advertisements,
-        optional daily reminders, and non-government educational disclaimers.
-      </p>
-      <div class="meta-bar">
-        <span class="meta-chip">App Name: Uttarakhand GS</span>
-        <span class="meta-chip">Package ID: com.uttarakhandgs.examapp</span>
-        <span class="meta-chip">Effective Date: November 20, 2026</span>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <nav class="nav-pills" aria-label="Quick navigation">
-      <a href="#overview">1. Overview</a>
-      <a href="#data-storage">2. Local Data &amp; No Login</a>
-      <a href="#advertising">3. Google AdMob Ads</a>
-      <a href="#notifications">4. Reminders &amp; Permissions</a>
-      <a href="#controls">5. Data Deletion &amp; Choices</a>
-      <a href="#children">6. Children's Privacy</a>
-      <a href="#disclaimer">7. Non-Govt Disclaimer</a>
-      <a href="#contact">8. Contact</a>
-    </nav>
-
-    <div class="notice-box" role="note">
-      <strong>Important Non-Government Affiliation Notice (महत्वपूर्ण अस्वीकरण)</strong>
-      Uttarakhand GS is an independent educational study application. It is <strong>NOT affiliated with, endorsed by, sponsored by, or officially connected with</strong>
-      UKPSC (Uttarakhand Public Service Commission), UKSSSC (Uttarakhand Subordinate Service Selection Commission), or the Government of Uttarakhand.
-      Official exam notifications and answer keys should always be verified at
-      <a href="https://psc.uk.gov.in/" target="_blank" rel="noopener noreferrer">psc.uk.gov.in</a> and
-      <a href="https://sssc.uk.gov.in/" target="_blank" rel="noopener noreferrer">sssc.uk.gov.in</a>.
+  <div class="container">
+    <h1>Privacy Policy &amp; Disclaimer — Uttarakhand GS</h1>
+    <div class="meta">
+      <strong>Application Name:</strong> Uttarakhand GS<br />
+      <strong>Package ID:</strong> <code>com.uttarakhandgs.examapp</code><br />
+      <strong>Effective Date:</strong> 2025-01-01<br />
+      <strong>Contact Email:</strong> <a href="mailto:ks79130197@gmail.com">ks79130197@gmail.com</a>
     </div>
 
-    <section id="overview" class="card">
-      <h2><span class="num">1</span> Overview</h2>
-      <p>
-        This Privacy Policy explains how <strong>Uttarakhand GS</strong> (Package ID: <code>com.uttarakhandgs.examapp</code>) handles information when you use our mobile application.
-        We are committed to protecting student privacy while keeping our offline practice question bank (43,900+ questions and 75 mock papers) accessible.
-      </p>
-      <div class="hindi">
-        यह गोपनीयता नीति बताती है कि <strong>Uttarakhand GS</strong> ऐप में आपकी अध्ययन जानकारी कैसे सुरक्षित रखी जाती है और विज्ञापन व अधिसूचना सुविधाएँ किस प्रकार कार्य करती हैं।
-      </div>
-    </section>
+    <div class="highlight">
+      <strong>100% Offline &amp; Ad-Free:</strong> Uttarakhand GS does not collect, sell, or share personal user data, does not require login or registration, and contains zero advertisements or tracking SDKs.
+    </div>
 
-    <section id="data-storage" class="card">
-      <h2><span class="num">2</span> Personal Information &amp; Local Study Storage</h2>
-      <p>
-        Uttarakhand GS <strong>does NOT require account creation, login, name, email address, phone number, contacts, camera access, or precise GPS location</strong>.
-      </p>
-      <ul>
-        <li>Your quiz attempts, mock test scores, accuracy analytics, bookmarked questions, and app theme preferences are stored <strong>strictly locally on your device</strong> using Room SQLite and Android SharedPreferences.</li>
-        <li>We do not operate any external user account server and do not sell or rent personal information.</li>
-      </ul>
-      <div class="hindi">
-        ऐप में किसी लॉगिन, नाम, ईमेल या मोबाइल नंबर की आवश्यकता नहीं है। आपके क्विज़ अंक, प्रगति इतिहास, बुकमार्क और सेटिंग्स केवल आपके डिवाइस में स्थानीय रूप से संग्रहीत रहते हैं।
-      </div>
-    </section>
+    <div class="notice">
+      <strong>Government Non-Affiliation Disclaimer:</strong> Uttarakhand GS is an independent educational exam-preparation application. It is <strong>NOT affiliated with, endorsed by, sponsored by, or connected to</strong> UKPSC (<a href="https://psc.uk.gov.in" target="_blank" rel="noopener">psc.uk.gov.in</a>), UKSSSC (<a href="https://sssc.uk.gov.in" target="_blank" rel="noopener">sssc.uk.gov.in</a>), the Government of Uttarakhand, or any government body. All syllabus outlines and practice sets are compiled from publicly available educational references strictly for self-study.
+    </div>
 
-    <section id="advertising" class="card">
-      <h2><span class="num">3</span> Google AdMob Advertising Disclosure</h2>
-      <p>
-        To support ongoing maintenance and keep educational content accessible for students, <strong>Uttarakhand GS intends to display and integrates Google AdMob</strong>
-        to serve limited, non-intrusive banner advertisements <strong>strictly outside active quizzes and mock tests</strong>.
-      </p>
-      <p>
-        When your device is connected to the internet and advertisements are active, Google Mobile Ads (AdMob) SDK and its partners may automatically collect and process certain device signals to serve, personalize (where consented), cap frequency, prevent fraud, and measure ads:
-      </p>
-      <ul>
-        <li><strong>Google Advertising ID (AD_ID)</strong> and app set ID / device identifiers</li>
-        <li><strong>Approximate (coarse) location</strong> inferred from IP address</li>
-        <li><strong>App interactions &amp; diagnostics</strong> (ad impressions, clicks, crash logs, and performance metrics)</li>
-        <li><strong>Device specifications</strong> (OS version, device model, screen size, language)</li>
-      </ul>
-      <p>
-        When you use the app offline, no ad requests are sent. Where required by regional laws (such as EEA/UK/GDPR), Uttarakhand GS uses Google's User Messaging Platform (UMP) consent flow so you can choose your ad consent preferences.
-        Learn more about how Google uses data at
-        <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/ads</a>.
-      </p>
-      <div class="hindi">
-        ऐप को विद्यार्थियों के लिए सुलभ बनाए रखने हेतु <strong>Google AdMob</strong> के माध्यम से सीमित एवं गैर-दखलंदाज़ी बैनर विज्ञापन (केवल सक्रिय क्विज़ व मॉक टेस्ट के बाहर) दिखाए जाने का प्रावधान है। ऑनलाइन होने पर Google AdMob विज्ञापन दिखाने व मापने हेतु Advertising ID, अनुमानित स्थान (IP आधारित) और तकनीकी डायग्नोस्टिक्स का उपयोग कर सकता है। ऑफलाइन उपयोग में कोई विज्ञापन अनुरोध नहीं भेजा जाता।
-      </div>
-    </section>
+    <h2>1. No Personal Information or Account Collection</h2>
+    <p>
+      Uttarakhand GS works without user accounts or sign-in. We do <strong>not</strong> ask for or collect your name, email address, phone number, contacts, photos, microphone audio, camera feed, or GPS location.
+    </p>
 
-    <section id="notifications" class="card">
-      <h2><span class="num">4</span> App Permissions &amp; Daily Study Reminders</h2>
-      <p>Uttarakhand GS requests only minimal permissions required for core features:</p>
-      <ul>
-        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>, Android 13+):</strong> Optional permission used solely to deliver your daily 5:00 PM study practice reminder locally on your device. You can enable or disable it anytime in <em>Settings</em>.</li>
-        <li><strong>Run at Startup (<code>RECEIVE_BOOT_COMPLETED</code>):</strong> Used only to restore your 5:00 PM local study reminder alarm after your phone restarts (if reminders are enabled).</li>
-        <li><strong>Internet &amp; Network State (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>):</strong> Used solely for Google AdMob ad loading/consent checks when online.</li>
-        <li><strong>Advertising ID (<code>com.google.android.gms.permission.AD_ID</code>):</strong> Used solely by Google AdMob SDK as declared in Section 3.</li>
-      </ul>
-      <p>The app does <strong>not</strong> request camera, microphone, contacts, SMS, call logs, precise GPS location, or broad media storage permissions.</p>
-    </section>
+    <h2>2. Local On-Device Storage</h2>
+    <p>
+      All app data stays strictly on your Android device using local Room SQLite storage and SharedPreferences, including:
+    </p>
+    <ul>
+      <li>Quiz scores, attempt history, and accuracy statistics</li>
+      <li>Bookmarked questions and custom quiz preferences</li>
+      <li>Display theme (Light, Midway, or Dark) and question count settings</li>
+      <li>Optional <strong>Test Reminder Notification</strong> preferences (enabled/disabled state, your selected reminder time, and your custom reminder message)</li>
+    </ul>
+    <p>
+      None of this local study data is uploaded to external servers or shared with third parties.
+    </p>
 
-    <section id="controls" class="card">
-      <h2><span class="num">5</span> Your Privacy Choices &amp; Data Deletion</h2>
-      <ul>
-        <li><strong>Delete Local Study Data:</strong> Open <em>Settings → Reset Study History</em> inside the app to erase quiz attempts and progress anytime, or clear app storage / uninstall the app from Android Settings to delete all local data permanently.</li>
-        <li><strong>Manage Ad Consent &amp; Personalization:</strong> Use <em>Settings → Ad Privacy Preferences</em> inside the app (where applicable) or open <em>Android Settings → Google → Ads → Opt out of Ads Personalization / Delete advertising ID</em>.</li>
-        <li><strong>Turn Off Reminders:</strong> Toggle off <em>Daily Evening Test Reminder (5:00 PM)</em> in app Settings or revoke notification permission in Android Settings.</li>
-      </ul>
-    </section>
+    <h2>3. No Advertisements &amp; Zero Tracking</h2>
+    <p>
+      Uttarakhand GS is completely ad-free. The app does <strong>not</strong> display any advertisements and does <strong>not</strong> integrate any third-party advertising, analytics, or behavioral tracking SDKs.
+    </p>
 
-    <section id="children" class="card">
-      <h2><span class="num">6</span> Children's Privacy</h2>
-      <p>
-        Uttarakhand GS is designed for competitive examination aspirants and learners aged <strong>13 years and older</strong>.
-        We do not knowingly collect personal registration information from children under 13. If you believe any child-related privacy concern exists, please contact us so we can address it promptly.
-      </p>
-    </section>
+    <h2>4. Device Permissions</h2>
+    <p>
+      Uttarakhand GS requests only minimal permissions required for core functionality:
+    </p>
+    <ul>
+      <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>, optional on Android 13+):</strong> Requested only if you enable the optional <em>Test Reminder Notification</em> in Settings so the app can trigger local study reminders at your chosen time with your custom text.</li>
+      <li><strong>Boot Completed (<code>RECEIVE_BOOT_COMPLETED</code>):</strong> Used solely to re-schedule your local <em>Test Reminder Notification</em> after a device restart if reminders are enabled.</li>
+    </ul>
 
-    <section id="disclaimer" class="card">
-      <h2><span class="num">7</span> Sources of Information, Accuracy &amp; Terms of Use</h2>
-      <p>
-        <strong>Sources of Information:</strong> Syllabus outlines, general knowledge questions, and practice mock sets are curated from publicly published syllabus guidelines, standard academic reference books, and Uttarakhand state educational resources strictly for exam preparation.
-        For official notifications, exam dates, syllabi, and final answer keys, always verify directly on the official commission portals:
-        <a href="https://psc.uk.gov.in/" target="_blank" rel="noopener noreferrer">psc.uk.gov.in</a> (UKPSC) and
-        <a href="https://sssc.uk.gov.in/" target="_blank" rel="noopener noreferrer">sssc.uk.gov.in</a> (UKSSSC).
-      </p>
-      <p>
-        <strong>Educational Use:</strong> While every question and explanation is carefully reviewed, this app is provided as a supplementary self-study practice tool on an "as-is" basis and does not guarantee examination outcomes.
-      </p>
-      <p>
-        <strong>Fair Use:</strong> This content is licensed for personal, non-commercial study only. Automated scraping, bulk extraction, or commercial redistribution of the question bank without permission is prohibited.
-      </p>
-    </section>
+    <h2>5. Data Control &amp; Deletion</h2>
+    <p>
+      You retain complete control over your data on your device. At any time, you can:
+    </p>
+    <ul>
+      <li>Erase all quiz scores and progress inside the app via <strong>Settings &rarr; Reset Study History</strong></li>
+      <li>Edit or disable your reminder anytime via <strong>Settings &rarr; Test Reminder Notification</strong></li>
+      <li>Remove all app data permanently by clearing app storage in Android System Settings or uninstalling the app</li>
+    </ul>
 
-    <section id="contact" class="card">
-      <h2><span class="num">8</span> Policy Updates &amp; Developer Contact</h2>
-      <p>
-        We may update this Privacy Policy from time to time (for example, when activating ad units or adding new app capabilities). Any updates will be reflected on this page with an updated Effective Date.
-      </p>
-      <p>
-        If you have any questions, copyright inquiries, factual feedback, or privacy requests regarding <strong>Uttarakhand GS</strong>, please contact us at:
-      </p>
-      <ul>
-        <li><strong>Developer Email:</strong> <a href="mailto:ks79130197@gmail.com">ks79130197@gmail.com</a></li>
-        <li><strong>Official Policy URL:</strong> <a href="https://ks000538.github.io/Uttarakhand-GS-Privacy-Policy/">https://ks000538.github.io/Uttarakhand-GS-Privacy-Policy/</a></li>
-      </ul>
-    </section>
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Uttarakhand GS is designed for competitive exam aspirants and learners aged 13 and above. We do not knowingly collect any personal information from children under 13 years of age or any other user.
+    </p>
 
-    <footer class="footer">
-      &copy; 2026 Uttarakhand GS (Independent Educational Practice App). All rights reserved.
+    <h2>7. Updates to This Policy</h2>
+    <p>
+      If app features change in the future, this Privacy Policy will be updated on this page and inside the app before any changes take effect.
+    </p>
+
+    <h2>8. Developer Contact</h2>
+    <p>
+      For questions about this Privacy Policy, app support, or question bank feedback, please email:
+      <a href="mailto:ks79130197@gmail.com">ks79130197@gmail.com</a>.
+    </p>
+
+    <footer>
+      Uttarakhand GS (<code>com.uttarakhandgs.examapp</code>) &bull; Independent Offline Exam Practice App
     </footer>
-  </main>
-
+  </div>
 </body>
 </html>
